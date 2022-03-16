@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  
+
+  
+}
+body{
+  background-color: white;
+  
+}
+h1{
+  color: white;
+  text-align: center;
+}
+#Searchbox{
+  display: flex;
+  justify-content: center;
+}
+.App {
+  height: auto;
+  background-image: url("https://images.alphacoders.com/876/876589.jpg");
+  
+  
+}
+button
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+input{
+  width: 50%;
+}
+#LocationInfo{
+  color: white;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#ResidentInfo{
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0px;
+  background-color: #fffffe48;
+  color: white;
+  max-width: 40%;
+  padding: 0.0px;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+
+}
+#Firstimage{
+  max-height: 15em;
+  object-fit: cover;
+}
+img{
+  width: 100%;
+  border-radius: 8px;
+}
+#Residentlist{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+/*#1F2605*/
